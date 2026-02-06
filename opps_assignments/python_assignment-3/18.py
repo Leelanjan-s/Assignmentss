@@ -3,9 +3,9 @@
 # Return value : True
 # Sample list : [{1,2},{},{}]
 # Return value : False
-sample_list1 = [{}, {}, {}]
-sample_list2 = [{1, 2}, {}, {}]
+list1 = [{}, {}, {}]
+list2 = [{1, 2}, {}, {}]
 def sample(dicts):
     return all(not i for i in dicts)
-print(sample(sample_list1))  
-print(sample(sample_list2))  
+print(sample(list1))  
+print(sample(list2))  
